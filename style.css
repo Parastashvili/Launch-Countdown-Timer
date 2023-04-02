@@ -1,0 +1,146 @@
+html {
+    font-family: 'Red Hat Text';
+    background: #1D1E28;
+    background-image: url(./launch-countdown-timer-main/images/bg-stars.svg);
+
+}
+
+body {
+    height: 50vh;
+    overflow: hidden;
+}
+
+#launching_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 6.13636px;
+    text-transform: uppercase;
+    width: 327px;
+    margin: auto;
+    margin-top: 147px;
+    color: #FFFFFF;
+    width: 450px;
+    height: 29px;
+}
+.logo{
+    margin-left: 70px;
+    margin-top: 210px;
+}
+
+#count_down {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 400px;
+    margin: auto;
+    color: aliceblue;
+    margin-top: 54px;
+}
+
+.time_bg {
+    background: #343650;
+    border-radius: 4px;
+    width: 70px;
+    height: 67px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -1.08px;
+    color: #FB5E84;
+}
+
+.time_bgg {
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    border-radius: 0px 0px 4px 4px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.time_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 9px;
+    text-align: center;
+    letter-spacing: 2.95937px;
+    margin-top: 9px;
+    color: #8385A9;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-image: url(./launch-countdown-timer-main/images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+
+}
+
+#bottom_pattern {
+    margin-top: auto;
+}
+
+#contacts {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 300px;
+    margin: auto;
+    position: relative;
+    bottom: 70px;
+}
+
+svg:hover path {
+    fill: #FB5E84
+}
+
+@media (min-width:1440px) {
+    .time_bg {
+        border-radius: 8px;
+        width: 148px;
+        height: 140px;
+        font-size: 80px;
+        line-height: 71px;
+        text-align: center;
+        letter-spacing: -2.4px;
+        color: #FB5E84;
+        margin: 104px 16px 0px 16px;
+    }
+
+    .time_text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 5.91875px;
+        color: #8385A9;
+    }
+
+    #count_down {
+        max-width: 400px;
+    }
+
+    #launching_text {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 7.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+}
